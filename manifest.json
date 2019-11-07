@@ -14,6 +14,12 @@
         "128": "icons/128.png"
     },
 
+    "applications": {
+        "gecko": {
+            "id": "kata-tokoh@lakuapik"
+        }
+    },
+
     "chrome_url_overrides" : {
         "newtab": "newtab.html"
     },
