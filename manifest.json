@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Kata Tokoh",
+    "short_name": "kata-tokoh",
+    "description": "Menampilkan quote dari tokoh terkenal dunia ketika membuka tab baru.",
+    "author": "github.com/lakuapik",
+
+    "version": "1.0",
+
+    "icons": {
+        "48": "icons/48.png",
+        "64": "icons/64.png",
+        "96": "icons/96.png",
+        "128": "icons/128.png"
+    },
+
+    "chrome_url_overrides" : {
+        "newtab": "newtab.html"
+    },
+
+    "permissions": [
+        "https://raw.githubusercontent.com/lakuapik/quotes-indonesia/master/raw/quotes.min.json"
+    ]
+}
